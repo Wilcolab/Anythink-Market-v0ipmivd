@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../imgs/logo.png";
-
+import SearchBox from "./SearchBox";
 const Banner = () => {
   return (
     <div className="banner text-white">
@@ -9,6 +9,7 @@ const Banner = () => {
         <div>
           <span>A place to </span>
           <span id="get-part">get</span>
+          <SearchBox id= "search"/>
           <span> the cool stuff.</span>
         </div>
       </div>
